@@ -1,0 +1,352 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+
+
+header .navbar {
+    background-color: #82070f !important;
+    padding: 5px;
+}
+
+  
+.banner {
+  width: 100%;
+  height: 600px;
+  animation: banner 16s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+@keyframes banner{
+  0%, 20%{
+    background-image: url(../img/Banner1.png);
+  }
+  25%, 45%{
+    background-image: url(../img/Banner2.png);
+  }
+  50%, 70%{
+    background-image: url(../img/Banner3.png);
+  }
+  75%, 100%{
+    background-image: url(../img/Banner4.png);
+  }
+}
+
+.capa {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+.info{
+  z-index: 1;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+}
+
+.info h1{
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.info p{
+  color: #c7c7c7;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.info a{
+  color: white;
+  text-decoration: none;
+  background: #82070f;
+  padding: 16px 37px;
+  display: inline-block;
+  border-radius: 50px;
+
+}
+
+
+  .center{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar-brand {
+	color: #fff;
+	font-size:25px;
+    font-family: 'Helvetica';
+	font-weight:700;
+	letter-spacing:0.1em;
+    padding: 0px 10px;
+}
+
+.navbar-nav .nav-item .nav-link{
+	padding: 1.1em 1em!important;
+	font-size: 120%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;
+   font-family: 'helvetica', sans-serif;
+}
+
+.espacio{
+    padding: 10px 0 30px 0;
+}
+
+.espacio h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.espacio p{
+    text-align: justify;
+}
+/*--------------------------------------------------------------
+# Fusa
+--------------------------------------------------------------*/
+.fusa {
+  background: #fff;
+  padding: 60px 0;
+}
+.fusa .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #343a40;
+  position: relative;
+}
+.fusa .member .member-info {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+.fusa .member .member-info-content {
+  margin-top: -50px;
+  transition: margin 0.2s;
+}
+.fusa .member:hover .member-info {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+.fusa .member:hover .member-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}
+.fusa .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+.fusa .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.fusa .member .social {
+  margin-top: 15px;
+}
+.fusa .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+}
+.fusa .member .social a:hover {
+  color: #5c9f24;
+}
+.fusa .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+.team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  background: #343a40;
+  position: relative;
+}
+.team .member .member-info {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+.team .member .member-info-content {
+  margin-top: -50px;
+  transition: margin 0.2s;
+}
+.team .member:hover .member-info {
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  transition: 0.4s;
+}
+.team .member:hover .member-info-content {
+  margin-top: 0;
+  transition: margin 0.4s;
+}
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.team .member .social {
+  margin-top: 15px;
+}
+.team .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+}
+.team .member .social a:hover {
+  color: #5c9f24;
+}
+.team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+/* # Portfolio Details*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 200px;
+  position: relative;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #5c9f24;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #5c9f24;
+}
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(42, 42, 42, 0.08);
+}
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+   /* footer  */
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    margin-bottom: 300px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    color: rgba(200,0,24,0.75);
+  }
+  
+  @media (max-width: 34em) {
+      body {
+        margin-bottom: 500px;
+        color: rgba(200,0,24,0.75);
+      }
+      .footer {
+        height: 500px;
+      }
+  }
+  
+  footer {
+    padding-top: 30px;
+    background-color: #eef1f1;
+    color: #bbb;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: rgb(207, 205, 205);
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+      background-color: #faf8f5;
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+
+
+
+
